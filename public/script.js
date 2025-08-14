@@ -23,6 +23,7 @@ async function haeSaa() {
       <h2>${data.city.name}</h2>
       <p>Lämpötila nyt: ${Math.round(data.list[0].main.temp)} °C</p>
       <p>Kuvaus: ${data.list[0].weather[0].description}</p>
+      <p>Tuulen nopeus: ${data.list[0].wind.speed} m/s</p>
       <img class="icon-chip" src="https://openweathermap.org/img/wn/${data.list[0].weather[0].icon}@2x.png">
     `;
 
