@@ -15,4 +15,4 @@ Yksinkertainen Node.js- ja JavaScript-pohjainen sääsovellus, joka hakee ajanko
 - **Axios**
 - **dotenv**
 - **OpenWeather API**
-- HTML, CSS ja JavaScript (front-end)
+
