@@ -1,5 +1,5 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #f0f4f8;
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
 .container {
   background: linear-gradient(to bottom, rgb(124, 177, 242), rgb(38, 206, 106));
   padding: 2rem;
-  border-radius: 12px;
+  border-radius: 22px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   text-align: center;
   width: 300px;
@@ -25,13 +25,13 @@ body {
 input {
   padding: 0.5rem;
   width: 65%;
-  border-radius: 12px;
-  border: 1px solid #ccc;
+  border-radius: 22px;
+  border: 2px solid #ccc;
 }
 
 button {
   padding: 0.5rem 1rem;
-  border-radius: 12px;
+  border-radius: 22px;
   border: none;
   background-color: #2279f3;
   color: white;
