@@ -1,3 +1,4 @@
+
 # Sääsovellus 🌤️
 
 Yksinkertainen Node.js- ja JavaScript-pohjainen sääsovellus, joka hakee ajankohtaiset säätiedot ja 5 päivän ennusteen OpenWeather API:sta.
