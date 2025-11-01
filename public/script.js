@@ -56,8 +56,14 @@ async function haeSaa() {
 
     ennusteHTML += `</div>`;
 
-    // 👇 Tässä yhdistetään ja näytetään kaikki sisältö selaimessa
-    document.getElementById('weatherResult').innerHTML = nykyinen + ennusteHTML;
+    const weatherCard = document.getElementById('weatherResult');
+weatherCard.innerHTML = nykyinen + ennusteHTML;
+
+// Käynnistetään fade-in uudelleen
+weatherCard.style.animation = 'none';
+void weatherCard.offsetWidth; // pakotettu reflow (nollaa animaation)
+weatherCard.style.animation = 'fadeInCard 0.8s ease-in-out forwards';
+
 
   } catch (error) {
     console.error('Virhe haettaessa säätietoja:', error);
